@@ -1,0 +1,235 @@
+/* ------------------ GENERAL ------------------ */
+
+:root {
+  --gray-txt-color: #9da4bd;
+  --title-color: #303030;
+  --white-color: #ffffff;
+  --orange-color: #ff6c00;
+  --rgba-gray-color: rgba(157, 164, 189, 0.4);
+  --milk-color: #f7f7f7;
+}
+
+body {
+  background-color: #9da4bd;
+  font-family: "Open sans", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ------------------ HEADER ------------------ */
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+}
+
+.header-link:hover {
+  color: var(--orange-color);
+}
+.header-link:focus {
+  color: var(--orange-color);
+}
+
+.header-link-adress {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+.header-link-adress:hover {
+  color: var(--orange-color);
+}
+.header-link-adress:focus {
+  color: var(--orange-color);
+}
+.header-btn {
+  color: var(--white-color);
+  background-color: transparent;
+}
+.header-btn:hover {
+  color: var(--orange-color);
+}
+.header-btn:focus {
+  color: var(--orange-color);
+}
+
+.header {
+}
+.header-nvgtn {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-itm {
+}
+
+/* ------------------ HERO ------------------ */
+
+.hero-pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.35;
+  text-transform: uppercase;
+
+  color: var(--gray-txt-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+.hero-txt {
+  color: var(--gray-txt-color);
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  color: var(--title-color);
+}
+.hero-link:hover {
+  color: var(--orange-color);
+}
+.hero-link:focus {
+  color: var(--orange-color);
+}
+.hero {
+}
+.hero-list {
+}
+.hero-itm {
+}
+
+/* ------------------ ABOUT ------------------ */
+
+.about {
+}
+.about-list {
+}
+.about-img {
+}
+.about-pre-title {
+}
+.about-title {
+}
+.about-txt {
+}
+.about-btn {
+}
+
+/* ------------------ PRICE ------------------ */
+
+.price {
+}
+.price-pre-titl {
+}
+.price-header {
+}
+.price-list {
+}
+.price-itm {
+}
+.price-txt {
+}
+.price-btn {
+}
+
+/* ------------------ BENEFIST ------------------ */
+
+.benefits {
+}
+.benefits-list {
+}
+.beneftis-itm {
+}
+.count {
+}
+.beneftis-itm-txt {
+}
+.beneftis-pre-titl {
+}
+.beneftis-title {
+}
+.beneftis-txt {
+}
+
+/* ------------------ BARBER ------------------ */
+
+.barber {
+}
+.barber-pre-title {
+}
+.barber-title {
+}
+.barber-list {
+}
+.barber-itm {
+}
+.barber-itm-title {
+}
+.barber-itm-txt {
+  /* ------------------ BARBER ------------------ */
+}
+.gallery {
+}
+.gallery-txt {
+}
+
+/* ------------------ CONTACTS & Booking------------------ */
+.booking {
+}
+.booking-btn {
+}
+.contacts {
+}
+.contacts-title {
+}
+.contacts-adress {
+}
+.contacts-list {
+}
+.contats-link {
+}
+.contacts-itm {
+}
+.contacts-itm-adress {
+}
+.contacts-itm-mail {
+}
+.contacts-text {
+}
+
+/* ------------------ FOOTER ------------------ */
+
+.footer-txt {
+}
+.footer-list {
+}
+.footer-itm {
+}
+.footer-link {
+}
