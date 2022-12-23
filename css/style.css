@@ -10,8 +10,9 @@
 }
 
 body {
-  background-color: #9da4bd;
+  background-color: #455ba8;
   font-family: "Open sans", sans-serif;
+  color: #555555;
 }
 
 .list {
@@ -33,6 +34,35 @@ body {
   margin: -1px;
 }
 
+.btn {
+  font-family: "Open Sans" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  background-color: transparent;
+}
+.title {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+.pre-title {
+  font-family: "Open Sans" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
 /* ------------------ HEADER ------------------ */
 
 .header-link {
@@ -67,7 +97,6 @@ body {
 }
 .header-btn {
   color: var(--white-color);
-  background-color: transparent;
 }
 .header-btn:hover {
   color: var(--orange-color);
@@ -90,14 +119,13 @@ body {
 /* ------------------ HERO ------------------ */
 
 .hero-pre-title {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.35;
-  text-transform: uppercase;
-
   color: var(--gray-txt-color);
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.13;
+  letter-spacing: 0.05em;
   color: var(--white-color);
 }
 .hero-txt {
@@ -107,7 +135,7 @@ body {
 .hero-link {
   font-weight: 600;
   font-size: 11px;
-  line-height: 15px;
+  line-height: 1.35;
   letter-spacing: 0.2em;
   color: var(--title-color);
 }
@@ -125,7 +153,32 @@ body {
 }
 
 /* ------------------ ABOUT ------------------ */
+.about-pre-title {
+  color: var(--title-color);
+}
 
+.about-title {
+  color: var(--title-color);
+}
+.about-txt {
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+}
+.about-txt-scnd {
+  font-size: 14px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+}
+.about-btn {
+  color: var(--title-color);
+}
+.about-btn:hover {
+  color: var(--orange-color);
+}
+.about-btn:focus {
+  color: var(--orange-color);
+}
 .about {
 }
 .about-list {
@@ -143,47 +196,104 @@ body {
 
 /* ------------------ PRICE ------------------ */
 
+.price-pre-title {
+  color: var(--rgba-gray-color);
+}
+.price-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.price-txt {
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: var(--gray-txt-color);
+}
+
+.price-btn {
+  color: #ffffff;
+}
+.price-btn:hover {
+  color: var(--orange-color);
+}
+.price-btn:focus {
+  color: var(--orange-color);
+}
 .price {
-}
-.price-pre-titl {
-}
-.price-header {
 }
 .price-list {
 }
 .price-itm {
 }
-.price-txt {
-}
-.price-btn {
-}
 
 /* ------------------ BENEFIST ------------------ */
+.count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+  color: var(--title-color);
+}
+
+.benefits-itm-txt {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--title-color);
+}
+
+.benefits-pre-title {
+  color: var(--title-color);
+}
+
+.benefits-title {
+  color: var(--title-color);
+}
+
+.benefits-txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+}
 
 .benefits {
 }
 .benefits-list {
 }
-.beneftis-itm {
+.benefits-itm {
 }
-.count {
-}
-.beneftis-itm-txt {
-}
-.beneftis-pre-titl {
-}
-.beneftis-title {
-}
-.beneftis-txt {
+
+.benefits-txt {
 }
 
 /* ------------------ BARBER ------------------ */
 
-.barber {
-}
 .barber-pre-title {
+  color: var(--title-color);
 }
 .barber-title {
+  color: var(--title-color);
+}
+.barber-itm-txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  color: var(--orange-color);
+}
+.barber-itm-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.38;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.barber {
 }
 .barber-list {
 }
@@ -192,40 +302,112 @@ body {
 .barber-itm-title {
 }
 .barber-itm-txt {
-  /* ------------------ BARBER ------------------ */
 }
+/* ------------------ Gallery ------------------ */
+
 .gallery {
 }
 .gallery-txt {
+  color: var(--title-color);
 }
 
 /* ------------------ CONTACTS & Booking------------------ */
+.booking-title {
+  color: var(--white-color);
+}
+
+.booking-btn {
+  color: var(--white-color);
+}
+.booking-btn:hover {
+  color: var(--orange-color);
+}
+.booking-btn:focus {
+  color: var(--orange-color);
+}
+
 .booking {
 }
-.booking-btn {
+
+.contacts-title {
+  color: var(--white-color);
 }
+.contats-itm-link {
+  font-family: "Open Sans" sans-serif;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: var(--gray-txt-color);
+}
+.contats-itm-link:hover {
+  color: var(--orange-color);
+}
+.contats-itm-link:focus {
+  color: var(--orange-color);
+}
+.contacts-itm-tell {
+  letter-spacing: 0.02em;
+  color: var(--gray-txt-color);
+}
+.contacts-itm-tell:hover {
+  color: var(--orange-color);
+}
+.contacts-itm-tell:focus {
+  color: var(--orange-color);
+}
+.contacts-itm-mail {
+  font-family: "Open Sans" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  color: var(--gray-txt-color);
+}
+.contacts-itm-mail:hover {
+  color: var(--orange-color);
+}
+.contacts-itm-mail:focus {
+  color: var(--orange-color);
+}
+.contacts-text {
+  color: var(--white-color);
+}
+.contacts-text-time {
+  color: var(--gray-txt-color);
+}
+
 .contacts {
 }
-.contacts-title {
-}
+
 .contacts-adress {
 }
 .contacts-list {
 }
-.contats-link {
-}
+
 .contacts-itm {
 }
-.contacts-itm-adress {
-}
+
 .contacts-itm-mail {
 }
 .contacts-text {
 }
 
 /* ------------------ FOOTER ------------------ */
-
+.footer-link {
+  color: var(--title-color);
+}
+.footer-link:hover {
+  color: var(--orange-color);
+}
+.footer-link:focus {
+  color: var(--orange-color);
+}
 .footer-txt {
+  color: var(--gray-txt-color);
 }
 .footer-list {
 }
